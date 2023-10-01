@@ -1,0 +1,86 @@
+body{
+    font-family: Sans-serif;
+    margin: 0px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5vh 25vh;
+}
+.topleft img{
+    width:135px;
+}
+.topright{
+    display: flex;
+    align-items: center;
+}
+.topright a{
+    text-decoration: none;
+    color: #13bfa3;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 15px;
+}
+
+.Sign{
+    border: none;
+    border-radius: 5px;
+    background-color: #13bfa3;
+    font-size: 14px;
+    padding: 12px 8px;
+    font-weight: bold;
+    box-shadow: 1px 2px  #79787897;
+}
+.Sign a{
+    color: white;
+}
+
+.topright button:hover{
+    box-shadow: none;
+    /* padding:11.5px 22px; */
+    font-size: 13px;
+}
+#slide2{
+    background-image: url('./backgroundImg.png');
+    padding: 35vh 50vh;
+}
+.mainslide2{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    padding:10vh;
+}
+.slide2left{
+    display: flex;
+    flex-direction: column;
+}
+.expenses{
+    font-size: 35px;
+    font-weight: bold;
+    color: #353232;
+}
+.expenses p{
+    margin: 0px;
+}
+#ontrip{
+    color: #13bfa3;
+}
+.slide2icon {
+    display: flex;
+    font-size: 38px;
+    gap:6vh;
+    margin: 20px 0px;
+}
+.slide2btn button{
+    border: none;
+    border-radius: 5px;
+    background-color: #13bfa3;
+    color: #fff;
+    padding:15px 16vh;
+}
+.track{
+    font-size: 16px;
+}
+.Free{
+   font-size: 16px;
+}
