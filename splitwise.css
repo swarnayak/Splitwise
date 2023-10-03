@@ -118,15 +118,22 @@ vertical-align: center;
     background-blend-mode:lighten;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
+    padding:0vh 10vh;
+}
+.balancestext h2{
+    font-size:16px
 }
 .balancestext p{
-    padding:5px 175px;
+    font-size: 14px;
+    padding:5px 125px;
     font-weight: 100;
 }
 .balancesimg{
    height: 79.5vh;
+   padding-top:5vh ;
+
 }
 .Split{
     background-image: url('./backgroundImg.png');
@@ -136,6 +143,8 @@ vertical-align: center;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding:0vh 10vh;
+
 }
 .easily{
     background-image: url('./backgroundImg.png');
@@ -145,4 +154,47 @@ vertical-align: center;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding:0vh 10vh;
+}
+.PRO{
+    background-image: url('./backgroundImg.png');
+    background-color: rgba(139, 74, 209, 0.91);
+    background-blend-mode:lighten;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.receipt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+.receipt h2{
+    margin: 0px;
+}
+.receipt p{
+    font-size: 16px;
+    padding:0vh 20vh;
+}
+.receipt button{
+    width: 20vh;
+    height: 8vh;
+    border-radius: 5px;
+    background-color: rgba(145, 100, 193, 0.974);
+    background-blend-mode:lighten;
+    border-color:white ;
+    color: #fff;
+    font-size: 16px;
+}
+.PROImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    padding-top:18vh ;
+   height: 79.5vh;
 }
