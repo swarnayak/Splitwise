@@ -2,89 +2,101 @@ import React from 'react';
 const MyComponent = () => {
   return (
     <>
-      <div className="container d-flex justify-content-between align-items-center py-3">
+      <div className="container d-flex justify-content-between align-items-center" style={{ padding: '25px 50px' }}>
         <div className=''> 
           <img src="./logo/sw-wide.svg" alt="" className='' width={150}/>
         </div>
-        <div className=" d-flex gap-3 align-items-center">
-          <div><button className='btn btn-success'>Log In</button></div>
-          <div><a href="#" className=" text-decoration-none text-reset text-success fw-bold ">Sign Up</a></div>
-          {/* <div><a href="#"/><button type="button" className=" rounded btn btn-success text-white border border-0 shadow-sm p-3 mb-5 rounded">Sign Up</button></div> */}
+        <div className=" d-flex gap-3 align-items-center ">
+          <div><a className="Log">Log In</a></div>
+          <div className=""><button className='sign sign-1'>Sign Up</button></div>
         </div>
       </div>
       
 
-<div className="container">
-<div className="d-flex">
-  <div>
-      <div className="">
-        <p>Less stress when sharing expenses</p>
-        <p id="ontrip">on trips.</p>
-      </div>
-      <div className="">
-        <a href="#"><i className="fa-solid fa-plane" style={{ color: '#13bfa3' }} ></i></a>
-        <a href="#"><i className="fa-solid fa-house" style={{ color: '#811bac' }} ></i></a>
-        <a href="#"><i className="fa-solid fa-heart" style={{ color: '#890606' }}></i></a>
-        <a href="#"><i className="fa-solid fa-star" style={{ color: '#74777b' }}></i></a>
-      </div>
-      <div className="">
-        <p className="track">Keep track of your shared expenses and balances with housemates, trips, groups, friends, and family.</p>
-        <button type="button" className="">Sign up</button>
-        <p className="Free">Free for<i className="fa-brands fa-apple" style={{ color: '#3f4040' }}></i><a href="#">iPhone,</a><i className="fa-brands fa-android" style={{ color: '#3f4040' }}></i><a href="#">Android</a> and web.</p>
-      </div>
+<div className=" slidemain container-fluid " style={{ padding: '30px 150px ' }} >
+<div className="row p-5">
+  <div className="col text-start">
+    <div className="fs-1 fw-bold my-3">
+      <div><p className='Less text-left m-0'>Less stress when sharing expenses</p></div>
+      <div><p className="ontrip text-left m-0">on trips.</p></div>
+    </div>
+    <div className="d-flex gap-3 fs-2 opacity-75 my-3">
+      <a href="#"><i className="fa-solid fa-plane" style={{ color: '#13bfa3' }} ></i></a>
+      <a href="#"><i className="fa-solid fa-house" style={{ color: '#811bac' }} ></i></a>
+      <a href="#"><i className="fa-solid fa-heart" style={{ color: '#890606' }}></i></a>
+      <a href="#"><i className="fa-solid fa-star" style={{ color: '#74777b' }}></i></a>
+    </div>
+    <div className="">
+      <div><p className="fw-normal my-3">Keep track of your shared expenses and balances with housemates, trips, groups, friends, and family.</p></div>
+      <div><button type="button" className="sign fs-5 text-white rounded border border-0 px-5 py-2 my-3">Sign up</button></div>
+      <div><p className="my-3">Free for<i className="fa-brands fa-apple px-1" style={{ color: '#3f4040' }}></i><a href="#" className='text-decoration-none' style={{ color: ' #2d3137' }}>iPhone,</a><i className="fa-brands fa-android px-1" style={{ color: '#3f4040' }}></i><a href="#" className='text-decoration-none' style={{ color: ' #2d3137' }}>Android</a> and web.</p></div>       
+    </div>
   </div>
 
-    <div id="">
-      {/* <img src="./pattern1.jpg" alt="" /> */}
+    <div className="col">
+    { /*img*/ }
     </div>
 </div>
 </div>
     
 
-      <div id="slide3">
-      <div className="balances">
-            <div className="balancestext">
-                <h2>Track balances</h2><p>Keep track of shared expenses, balances, and who owes who.</p>
-            </div>
-            <div className="balancesimg">
-                <img src="./asset1.png" alt=""/>
-            </div>
-        </div>
-        <div className="Split">
-            <div className="balancestext" >
-                <h2>Organize expenses</h2><p>Split expenses with any group: trips, housemates, friends, and family</p>
-            </div>
-            <div className="balancesimg">
-                <img src="./asset2.png" alt=""/> 
-            </div>
-        </div>
-        <div className="easily">
-            <div className="balancestext">
-                <h2>Add expenses easily</h2><p>Quickly add expenses on the go before you forget who paid.</p>
-            </div>
-            <div className="balancesimg">
-                <img src="./asset3.png" alt=""/>
-            </div>
-        </div>
-        <div className="balances">
-            <div className="balancestext">
-                <h2>Pay friends back</h2><p>Settle up with a friend and record any cash or online payment.</p>
-            </div>
-            <div className="balancesimg">
-                <img src="./asset4.png" alt=""/>
-            </div> 
-        </div>
-      <div className="PRO">
-      <div className="receipt">
-            <h2>Get even more with PRO</h2>
-            <p>Get even more organized with receipt scanning, charts and graphs, currency conversion, and more!</p>
-            <button type="button">Sign Up</button>
-        </div>
-        <div className="PROImg">
-            <img src="./asset5.png" alt=""/>
-        </div>
+<div className="slide2 container-fluid ">
+<div className='row '>
+  <div className="balances col pt-5">
+      <div className="d-flex flex-column align-items-center">
+        <h2 className='fw-bold fs-3'>Track balances</h2>
+        <p className='fs-5 slide2-track'>Keep track of shared expenses, balances, and who owes who.</p>
+      </div>
+      <div className="" >
+      <img src="./Image/asset1.png" alt="" className='pt-4' width={300}/>
+      </div>
+  </div>
+  <div className="Split col pt-5">
+      <div className="d-flex flex-column align-items-center" >
+          <h2 className='fw-bold fs-3'>Organize expenses</h2>
+          <p className='fs-5 slide2-track'>Split expenses with any group: trips, housemates, friends, and family</p>
+      </div>
+      <div className="">
+      <img src="./Image/asset2.png" alt="" className='pt-4' width={300}/>
+      </div>
+  </div>
+</div>
+<div className='row'>
+  <div className="easily col pt-5">
+      <div className="d-flex flex-column align-items-center">
+          <h2 className='fw-bold fs-3'>Add expenses easily</h2>
+          <p className='fs-5 slide2-track'>Quickly add expenses on the go before you forget who paid.</p>
+      </div>
+      <div className="">
+      <img src="./Image/asset3.png" alt="" className='pt-4' width={300}/>
+      </div>
+  </div>
+
+  <div className="balances col pt-5">
+    <div className="d-flex flex-column align-items-center">
+        <h2 className='fw-bold fs-3'>Pay friends back</h2>
+        <p className='fs-5 slide2-track'>Settle up with a friend and record any cash or online payment.</p>
     </div>
-    </div>
+    <div className="">
+    <img src="./Image/asset4.png" alt="" className='pt-4' width={300}/>
+    </div> 
+  </div>
+</div>
+  </div>
+
+<div className="PRO row ">
+  <div className=" col d-flex flex-column align-items-center ">
+      <h2>Get even more with PRO</h2>
+      <p className='even'>Get even more organized with receipt scanning, charts and graphs, currency conversion, and more!</p>
+      <button type="button up">Sign Up</button>
+  </div>
+  <div className="col d-flex flex-column align-items-center ">
+      <img src="./Image/asset5.png" alt="" width={200} />
+  </div>
+  </div>
+
+
+
 
       <div id="slide4">
       <div>
